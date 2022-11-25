@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f7f7f7;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+   height: 52px; 
+}
+
+.collapse .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar>.container-fluid {
+    background: white;
+}
+
+.collapse .right-menu .dropdown-toggle::after {
+    display: inline-block;
+}
+
+.nav-link {
+    cursor: pointer;
+    color: #23262f;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-wallet {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 4px 10px;
+}
+
+.bi-sun {
+    padding-left: 4px;
+    border-left: 1px solid lightblue; 
+}
+
+.bi-bell {
+    padding-left: 4px;
+    border-left: 1px solid lightblue; 
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: -35px;
+    margin: 12px 0 0 0;
+    border: none;
+    border-bottom: 1px solid;
+    border-bottom-color: blue;
+}
+
+.triangle {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    right: 75px;
+    top: -8.4px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggler-icon {
+    height: 24px;    
+}
+
+.collapsed {
+    margin: 0 10px;
+    border: none;
+}
+
+.home {
+    margin-bottom: 90px;
+}
+
+.home-title {
+    font-size: 63px;
+    font-weight: 600;
+}
+
+.home-text {
+    font-size: 20px;
+    color: #777e90;
+}
+
+.home-btn {
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+.home h2 {
+   font-size: 24px;
+}
+
+
+.crypto-table {
+    box-shadow: 0 14px 64px 0 hsl(0deg 0% 6% / 10%);
+    padding: 16px 32px 31px;
+    background-color: white;
+}
+
+.container-cards {
+    position: relative;
+    top: -74px;
+    box-shadow: 5px 2px 10px rgb(227, 227, 227);
+}
+
+.crypto-menu {
+    padding: 16px 32px 15px;
+}
+
+.crypto-menu-table-box {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.table-menu-item {
+    border-radius: 24px;
+    cursor: pointer;
+    padding: 6px 18px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.crypto-cards {
+    padding-bottom: 15px;
+}
+
+.table-menu-list {
+    cursor: pointer;
+    padding: 6px 18px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 24px;
+}
+
+.active {
+    background: #3772ff;
+    color: #fff;
+}
+
+.select {
+    background: #3772ff;
+    color: #fff;
+}
+
+.crypto-table-panel {
+   margin-top: 37px;
+}
+
+.crypto-box {
+    background: #fff;
+    border-radius: 12px;
+    margin-right: 24px;
+    padding: 31px 40px;
+    box-shadow: 5px 0px 10px rgb(205, 205, 205);
+    width: 25%;
+}
+
+.crypto-box:hover {
+    box-shadow: 20px 10px 30px rgb(205, 205, 205);
+}
+
+.card-top {
+    margin-bottom: 9px;
+}
+
+
+.card-top-img-box {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    justify-content: flex-start;
+    color: black;
+    text-decoration: none;
+}
+
+
+.card-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.unit {
+    color: #777e90;
+    margin-left: 9px;
+}
+
+.price {
+    color: black;
+    margin-bottom: 11px;
+    font-size: 24px;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.sale {
+    border-radius: 24px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 9px;
+    padding: 4px 8px 3px 9px;
+   
+}
+.bg-red {
+    background: #d33535;
+}
+.bg-green {
+    background: #06a53e;
+}
+
+.list-title-text {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-title {
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    font-size: 44px;
+    color: #23262f;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.coin-list .list-title-text a {
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    color: #23262f;
+    text-decoration: d;
+}
+
+.column {
+    border-bottom: 1px solid black;
+}
+
+.btn-trade {
+    border: 2px solid #e6e8ec;
+    border-radius: 90px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: all .3s ease-in-out;
+    color: #23262f;
+}
+
+.btn-trade:hover {
+    background-color: #104ad3;
+    color: white;
+}
+
+.coin-list tbody tr td a {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: flex-start;
+}
+
+.coin-list tbody tr td {
+    padding: 22px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.coin-list thead tr th {
+    color: #777e90;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.list-number {
+    position: relative;
+    top: 16px;
+}
+.coin-list tbody tr th svg {
+    position: relative;
+    left: -10px;
+}
+
+
+.work-title {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 48px;
+    letter-spacing: -1px;
+    color: #23262f;
+}
+
+
+.work-text {
+    font-family: DM Sans,sans-serif;
+    font-size: 20px;
+    letter-spacing: -.2px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #777e90;
+}
+
+.little {
+    font-size: 16px;
+}
+
+.work-img {
+    transition: all .5s ease-in-out;
+}
+
+.work-img:hover {
+    transform: rotateY(-360deg);
+}
+
+
+
+.rockie-title {
+    font-size: 48px;
+    letter-spacing: -1px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #23262f;
+}
+
+.rockie-text {
+    font-size: 20px;
+    letter-spacing: -.2px;
+    font-family: DM Sans,sans-serif;
+    color: #777e90;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.rockie-text-title {
+    text-decoration: none;
+}
+
+.app-img-box {
+    margin-bottom: -45px;
+}
+
+.img-comment-user {
+    width: 48px;
+    height: 48px; 
+}
+
+.text-customer {
+    font-size: 12px;
+}
+
+.img-comment-user-4 {
+    width: 44px;
+    height: 44px
+}
+
+.text-job {
+    font-size: 13px;
+    color: #777e90;
+}
+
+.img-logoipsum {
+    margin-left: 140px;
+    margin-top: 10px;
+    width: 113px;
+    height: 27px;
+}
+
+.comment-box {
+    border-left: 18px solid #3673ff;
+    border-radius: 18px;
+    margin-bottom: 140px;
+}
+
+.quote-icon-box {
+    position: absolute;
+    right: 50px;
+}
+
+.banner {
+    background-color: #635fe0;
+}
+
+.btn-banner {
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+
+.section-footer {
+    border-bottom: 1px solid lavender;
+}
+
+.footer-left-box {
+    border-right: 1px solid lavender ;
+}
+
+.footer-center-box {
+    border-right: 1px solid lavender ;
+}
+
+.footer-right-box {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+input {
+    border: 2px solid #e5e5e5;
+    border-radius: 90px;
+    outline: none;
+    padding: 11px 19px;
+    width: 100%;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+.btn-action-footer {
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 24px;
+    position: absolute;
+    right: 25px;
+    top: 160px;
+    color: white;
+    background-color: #104ad3;
+}
