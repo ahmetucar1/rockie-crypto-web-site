@@ -295,6 +295,11 @@ nav {
     font-weight: 700;
 }
 
+.coin-list tbody tr:hover {
+     background: rgba(55, 114, 255, 0.1);
+     border-color: transparent;
+}
+
 .coin-list thead tr th {
     color: #777e90;
     font-size: 18px;
